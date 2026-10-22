@@ -1,109 +1,92 @@
-Starting >>> fpv_lab2
-/home/yura/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
-  warnings.warn(msg)
---- stderr: fpv_lab2
-/home/yura/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:318: UserWarning: Unknown distribution option: 'tests_require'
-  warnings.warn(msg)
----
-Finished <<< fpv_lab2 [8.31s]
-
-Summary: 1 package finished [9.35s]
-  1 package had stderr output: fpv_lab2
-[INFO] [1792685170.525666636] [flight_test]: Flight test node started
-[INFO] [1792685170.527519736] [flight_test]: Waiting for ArduPilot and ROS services...
-[WARN] [1792685170.533673336] [flight_test]: New publisher discovered on topic '/ap/v1/geopose/filtered', offering incompatible QoS. No messages will be received from it. Last incompatible policy: RELIABILITY
-[INFO] [1792685170.544964536] [flight_test]: Start position: x0=6.000, y0=-2.200
-[INFO] [1792685170.547964336] [flight_test]: Target point (variant 23): x=0.800, y=-3.000  (delta_x=5.2, delta_y=0.8)
-[INFO] [1792685171.954190252] [flight_test]: ArduPilot and all services are available
-[INFO] [1792685172.155728554] [flight_test]: Running pre-arm check
-[INFO] [1792685172.187609054] [flight_test]: Pre-arm check passed: Vehicle is Armable
-[INFO] [1792685172.355433956] [flight_test]: Waiting for the EKF to settle before arming...
-[INFO] [1792685182.554628192] [flight_test]: Waiting for the EKF to settle before arming...
-[INFO] [1792685192.754287420] [flight_test]: Waiting for the EKF to settle before arming...
-[INFO] [1792685202.761362278] [flight_test]: Waiting for the EKF to settle before arming...
-[INFO] [1792685212.954946316] [flight_test]: Waiting for the EKF to settle before arming...
-[INFO] [1792685223.157212295] [flight_test]: Waiting for the EKF to settle before arming...
-[WARN] [1792685232.354716499] [flight_test]: EKF wait timed out, continuing
-[INFO] [1792685232.555200798] [flight_test]: Requesting flight mode 4
-[INFO] [1792685232.570093498] [flight_test]: GUIDED mode enabled
-[INFO] [1792685232.755930896] [flight_test]: Requesting motor arming
-[INFO] [1792685232.845193995] [flight_test]: Motors armed
-[INFO] [1792685232.956953895] [flight_test]: Requesting takeoff to 2.0 m
-[INFO] [1792685232.973880194] [flight_test]: Takeoff command accepted
-[INFO] [1792685232.977021594] [flight_test]: Hovering for 20.0 seconds
-[INFO] [1792685233.157555693] [flight_test]: Climbing, altitude 0.19 m
-[INFO] [1792685238.155526054] [flight_test]: Climbing, altitude 0.19 m
-[INFO] [1792685243.355326717] [flight_test]: Climbing, altitude 0.19 m
-[INFO] [1792685248.555384589] [flight_test]: Climbing, altitude 0.19 m
-[INFO] [1792685253.754821823] [flight_test]: Climbing, altitude 0.19 m
-[INFO] [1792685258.962102448] [flight_test]: Climbing, altitude 0.45 m
-[INFO] [1792685264.157671869] [flight_test]: Climbing, altitude 1.79 m
-[INFO] [1792685264.356162872] [flight_test]: Takeoff altitude reached: 1.83 m
-[INFO] [1792685284.355036246] [flight_test]: Hover completed, flying to the target point
-[INFO] [1792685284.555121646] [flight_test]: Navigation started, target (0.800, -3.000)
-[INFO] [1792685284.560587046] [flight_test]: pos=(5.99, -2.20, 2.19) dist=5.25 m speed=0.40 m/s
-[INFO] [1792685285.758354446] [flight_test]: pos=(5.99, -2.20, 2.19) dist=5.25 m speed=0.40 m/s
-[INFO] [1792685286.955956946] [flight_test]: pos=(5.95, -2.20, 2.19) dist=5.21 m speed=0.40 m/s
-[INFO] [1792685288.155742049] [flight_test]: pos=(5.86, -2.22, 2.19) dist=5.12 m speed=0.40 m/s
-[INFO] [1792685289.157208719] [flight_test]: pos=(5.77, -2.23, 2.19) dist=5.03 m speed=0.40 m/s
-[INFO] [1792685290.355913502] [flight_test]: pos=(5.64, -2.25, 2.19) dist=4.90 m speed=0.40 m/s
-[INFO] [1792685291.356616672] [flight_test]: pos=(5.54, -2.26, 2.19) dist=4.80 m speed=0.40 m/s
-[INFO] [1792685292.357411142] [flight_test]: pos=(5.45, -2.28, 2.19) dist=4.71 m speed=0.40 m/s
-[INFO] [1792685293.357382812] [flight_test]: pos=(5.35, -2.29, 2.19) dist=4.61 m speed=0.40 m/s
-[INFO] [1792685294.558276396] [flight_test]: pos=(5.24, -2.31, 2.19) dist=4.49 m speed=0.40 m/s
-[INFO] [1792685295.758594979] [flight_test]: pos=(5.14, -2.32, 2.19) dist=4.39 m speed=0.40 m/s
-[INFO] [1792685296.760328034] [flight_test]: pos=(5.04, -2.34, 2.19) dist=4.29 m speed=0.40 m/s
-[INFO] [1792685297.954310192] [flight_test]: pos=(4.91, -2.36, 2.19) dist=4.16 m speed=0.40 m/s
-[INFO] [1792685298.964293373] [flight_test]: pos=(4.78, -2.38, 2.19) dist=4.03 m speed=0.40 m/s
-[INFO] [1792685300.159347131] [flight_test]: pos=(4.68, -2.39, 2.19) dist=3.92 m speed=0.40 m/s
-[INFO] [1792685301.356268490] [flight_test]: pos=(4.55, -2.41, 2.19) dist=3.80 m speed=0.40 m/s
-[INFO] [1792685302.560496348] [flight_test]: pos=(4.43, -2.43, 2.19) dist=3.68 m speed=0.40 m/s
-[INFO] [1792685303.754563607] [flight_test]: pos=(4.31, -2.45, 2.19) dist=3.55 m speed=0.40 m/s
-[INFO] [1792685304.954748336] [flight_test]: pos=(4.20, -2.47, 2.19) dist=3.44 m speed=0.40 m/s
-[INFO] [1792685305.954747408] [flight_test]: pos=(4.10, -2.48, 2.19) dist=3.34 m speed=0.40 m/s
-[INFO] [1792685306.955403680] [flight_test]: pos=(4.00, -2.50, 2.19) dist=3.24 m speed=0.40 m/s
-[INFO] [1792685308.158362447] [flight_test]: pos=(3.88, -2.52, 2.19) dist=3.12 m speed=0.40 m/s
-[INFO] [1792685309.357326913] [flight_test]: pos=(3.75, -2.54, 2.19) dist=2.99 m speed=0.40 m/s
-[INFO] [1792685310.355688785] [flight_test]: pos=(3.67, -2.55, 2.19) dist=2.90 m speed=0.40 m/s
-[INFO] [1792685311.556290751] [flight_test]: pos=(3.57, -2.57, 2.19) dist=2.81 m speed=0.40 m/s
-[INFO] [1792685312.757937851] [flight_test]: pos=(3.46, -2.58, 2.19) dist=2.69 m speed=0.40 m/s
-[INFO] [1792685313.763619980] [flight_test]: pos=(3.37, -2.60, 2.19) dist=2.61 m speed=0.40 m/s
-[INFO] [1792685314.758190509] [flight_test]: pos=(3.28, -2.61, 2.19) dist=2.51 m speed=0.40 m/s
-[INFO] [1792685315.958289744] [flight_test]: pos=(3.17, -2.63, 2.19) dist=2.40 m speed=0.40 m/s
-[INFO] [1792685316.960481173] [flight_test]: pos=(3.09, -2.64, 2.19) dist=2.32 m speed=0.40 m/s
-[INFO] [1792685318.162379508] [flight_test]: pos=(2.99, -2.66, 2.19) dist=2.21 m speed=0.40 m/s
-[INFO] [1792685319.356927642] [flight_test]: pos=(2.93, -2.66, 2.19) dist=2.16 m speed=0.40 m/s
-[INFO] [1792685320.556626370] [flight_test]: pos=(2.82, -2.68, 2.19) dist=2.05 m speed=0.40 m/s
-[INFO] [1792685321.560208777] [flight_test]: pos=(2.73, -2.70, 2.19) dist=1.95 m speed=0.40 m/s
-[INFO] [1792685322.755962087] [flight_test]: pos=(2.62, -2.71, 2.19) dist=1.85 m speed=0.40 m/s
-[INFO] [1792685323.954574296] [flight_test]: pos=(2.51, -2.73, 2.19) dist=1.73 m speed=0.40 m/s
-[INFO] [1792685324.955922704] [flight_test]: pos=(2.42, -2.75, 2.19) dist=1.64 m speed=0.40 m/s
-[INFO] [1792685325.955166011] [flight_test]: pos=(2.32, -2.76, 2.19) dist=1.54 m speed=0.40 m/s
-[INFO] [1792685327.154696921] [flight_test]: pos=(2.21, -2.78, 2.19) dist=1.43 m speed=0.40 m/s
-[INFO] [1792685328.157366528] [flight_test]: pos=(2.13, -2.80, 2.19) dist=1.34 m speed=0.40 m/s
-[INFO] [1792685329.160200023] [flight_test]: pos=(2.02, -2.81, 2.19) dist=1.24 m speed=0.40 m/s
-[INFO] [1792685330.356253016] [flight_test]: pos=(1.90, -2.83, 2.19) dist=1.12 m speed=0.40 m/s
-[INFO] [1792685331.357064610] [flight_test]: pos=(1.80, -2.84, 2.19) dist=1.01 m speed=0.40 m/s
-[INFO] [1792685332.554574803] [flight_test]: pos=(1.69, -2.86, 2.19) dist=0.90 m speed=0.36 m/s
-[INFO] [1792685333.559452797] [flight_test]: pos=(1.60, -2.87, 2.19) dist=0.81 m speed=0.32 m/s
-[INFO] [1792685334.558579992] [flight_test]: pos=(1.49, -2.89, 2.19) dist=0.70 m speed=0.28 m/s
-[INFO] [1792685335.757375584] [flight_test]: pos=(1.40, -2.90, 2.19) dist=0.61 m speed=0.24 m/s
-[INFO] [1792685336.955728975] [flight_test]: pos=(1.32, -2.92, 2.19) dist=0.52 m speed=0.21 m/s
-[INFO] [1792685337.963310466] [flight_test]: pos=(1.26, -2.93, 2.19) dist=0.46 m speed=0.19 m/s
-[INFO] [1792685339.154439256] [flight_test]: pos=(1.20, -2.93, 2.19) dist=0.41 m speed=0.16 m/s
-[INFO] [1792685340.156722747] [flight_test]: pos=(1.15, -2.94, 2.19) dist=0.36 m speed=0.14 m/s
-[INFO] [1792685341.354681336] [flight_test]: pos=(1.10, -2.95, 2.19) dist=0.31 m speed=0.12 m/s
-[INFO] [1792685342.557971725] [flight_test]: pos=(1.05, -2.96, 2.19) dist=0.26 m speed=0.10 m/s
-[INFO] [1792685343.760213615] [flight_test]: pos=(1.02, -2.97, 2.19) dist=0.22 m speed=0.10 m/s
-[INFO] [1792685346.562811027] [flight_test]: Target point reached
-[INFO] [1792685346.579691027] [flight_test]: RESULT start    : x0=6.000, y0=-2.200
-[INFO] [1792685346.594414827] [flight_test]: RESULT target   : x=0.800, y=-3.000
-[INFO] [1792685346.596295727] [flight_test]: RESULT actual   : x=0.952, y=-2.976, z=2.191
-[INFO] [1792685346.599114327] [flight_test]: RESULT error    : e=0.154 m
-[INFO] [1792685346.602726827] [flight_test]: Holding position at the target before landing
-[INFO] [1792685356.757855971] [flight_test]: Hold at target finished, landing
-[INFO] [1792685356.957440971] [flight_test]: Requesting flight mode 9
-[INFO] [1792685356.971526571] [flight_test]: LAND mode enabled
-[INFO] [1792685385.356818585] [flight_test]: Landing completed
-[INFO] [1792685385.360284085] [flight_test]: Final Gazebo position: x=0.945, y=-2.967, altitude=0.19 m
-[INFO] [1792685385.362509985] [flight_test]: Flight test completed successfully
+[INFO] [1792705256.115980925] [flight_test]: Flight test node started
+[INFO] [1792705256.117248925] [flight_test]: Waiting for ArduPilot and ROS services...
+[WARN] [1792705256.120960325] [flight_test]: New publisher discovered on topic '/ap/v1/geopose/filtered', offering incompatible QoS. No messages will be received from it. Last incompatible policy: RELIABILITY
+[INFO] [1792705256.124127625] [flight_test]: Start position: x0=6.000, y0=-2.200
+[INFO] [1792705256.125539225] [flight_test]: Target point (variant 23): x=0.800, y=-3.000  (delta_x=5.2, delta_y=0.8)
+[INFO] [1792705257.022311643] [flight_test]: ArduPilot and all services are available
+[INFO] [1792705257.221357947] [flight_test]: Running pre-arm check
+[INFO] [1792705257.230580147] [flight_test]: Pre-arm check passed: Vehicle is Armable
+[INFO] [1792705257.418525751] [flight_test]: Waiting for the EKF to settle before arming...
+[INFO] [1792705267.425313043] [flight_test]: Waiting for the EKF to settle before arming...
+[INFO] [1792705277.618556765] [flight_test]: Waiting for the EKF to settle before arming...
+[INFO] [1792705287.619222406] [flight_test]: Waiting for the EKF to settle before arming...
+[INFO] [1792705297.618898862] [flight_test]: Waiting for the EKF to settle before arming...
+[INFO] [1792705307.620464330] [flight_test]: Waiting for the EKF to settle before arming...
+[WARN] [1792705317.419406475] [flight_test]: EKF wait timed out, continuing
+[INFO] [1792705317.619149078] [flight_test]: Requesting flight mode 4
+[INFO] [1792705317.636828879] [flight_test]: GUIDED mode enabled
+[INFO] [1792705317.822759982] [flight_test]: Requesting motor arming
+[INFO] [1792705317.950767384] [flight_test]: Motors armed
+[INFO] [1792705318.021999085] [flight_test]: Requesting takeoff to 2.0 m
+[INFO] [1792705318.040718686] [flight_test]: Takeoff command accepted
+[INFO] [1792705318.042305286] [flight_test]: Hovering for 20.0 seconds
+[INFO] [1792705318.223007189] [flight_test]: Climbing, altitude 0.19 m
+[INFO] [1792705323.221613473] [flight_test]: Climbing, altitude 0.19 m
+[INFO] [1792705328.419642451] [flight_test]: Climbing, altitude 0.19 m
+[INFO] [1792705333.421453531] [flight_test]: Climbing, altitude 0.19 m
+[INFO] [1792705338.621999611] [flight_test]: Climbing, altitude 0.19 m
+[INFO] [1792705343.619926926] [flight_test]: Climbing, altitude 0.48 m
+[INFO] [1792705348.619105122] [flight_test]: Takeoff altitude reached: 1.82 m
+[INFO] [1792705368.620660974] [flight_test]: Hover completed, flying to the target point
+[INFO] [1792705368.822521464] [flight_test]: Navigation started, target (0.800, -3.000)
+[INFO] [1792705368.824618364] [flight_test]: pos=(6.00, -2.20, 2.19) dist=5.26 m speed=0.40 m/s
+[INFO] [1792705370.025085101] [flight_test]: pos=(6.00, -2.20, 2.19) dist=5.26 m speed=0.40 m/s
+[INFO] [1792705371.022401774] [flight_test]: pos=(5.98, -2.20, 2.19) dist=5.24 m speed=0.40 m/s
+[INFO] [1792705372.220847857] [flight_test]: pos=(5.92, -2.21, 2.19) dist=5.18 m speed=0.40 m/s
+[INFO] [1792705373.422284739] [flight_test]: pos=(5.80, -2.22, 2.20) dist=5.06 m speed=0.40 m/s
+[INFO] [1792705374.619454222] [flight_test]: pos=(5.66, -2.24, 2.20) dist=4.92 m speed=0.40 m/s
+[INFO] [1792705375.623464507] [flight_test]: pos=(5.55, -2.26, 2.20) dist=4.81 m speed=0.40 m/s
+[INFO] [1792705376.820218489] [flight_test]: pos=(5.41, -2.28, 2.20) dist=4.67 m speed=0.40 m/s
+[INFO] [1792705377.820444874] [flight_test]: pos=(5.30, -2.30, 2.19) dist=4.56 m speed=0.40 m/s
+[INFO] [1792705379.019627565] [flight_test]: pos=(5.18, -2.31, 2.19) dist=4.44 m speed=0.40 m/s
+[INFO] [1792705380.023942663] [flight_test]: pos=(5.09, -2.33, 2.19) dist=4.35 m speed=0.40 m/s
+[INFO] [1792705381.221843260] [flight_test]: pos=(5.00, -2.34, 2.19) dist=4.25 m speed=0.40 m/s
+[INFO] [1792705382.418776957] [flight_test]: pos=(4.86, -2.37, 2.19) dist=4.11 m speed=0.40 m/s
+[INFO] [1792705383.421035954] [flight_test]: pos=(4.75, -2.38, 2.19) dist=4.00 m speed=0.40 m/s
+[INFO] [1792705384.621315251] [flight_test]: pos=(4.63, -2.40, 2.19) dist=3.88 m speed=0.40 m/s
+[INFO] [1792705385.820098848] [flight_test]: pos=(4.50, -2.42, 2.19) dist=3.74 m speed=0.40 m/s
+[INFO] [1792705386.823029849] [flight_test]: pos=(4.40, -2.44, 2.19) dist=3.65 m speed=0.40 m/s
+[INFO] [1792705388.021141554] [flight_test]: pos=(4.26, -2.46, 2.19) dist=3.50 m speed=0.40 m/s
+[INFO] [1792705389.220687559] [flight_test]: pos=(4.14, -2.48, 2.19) dist=3.38 m speed=0.40 m/s
+[INFO] [1792705390.419418463] [flight_test]: pos=(4.00, -2.50, 2.19) dist=3.24 m speed=0.40 m/s
+[INFO] [1792705391.620664768] [flight_test]: pos=(3.89, -2.52, 2.19) dist=3.13 m speed=0.40 m/s
+[INFO] [1792705392.821205373] [flight_test]: pos=(3.78, -2.53, 2.19) dist=3.02 m speed=0.40 m/s
+[INFO] [1792705394.020691978] [flight_test]: pos=(3.67, -2.55, 2.19) dist=2.90 m speed=0.40 m/s
+[INFO] [1792705395.221322881] [flight_test]: pos=(3.57, -2.57, 2.19) dist=2.81 m speed=0.40 m/s
+[INFO] [1792705396.420036584] [flight_test]: pos=(3.45, -2.59, 2.19) dist=2.69 m speed=0.40 m/s
+[INFO] [1792705397.622161586] [flight_test]: pos=(3.31, -2.61, 2.19) dist=2.54 m speed=0.40 m/s
+[INFO] [1792705398.820128189] [flight_test]: pos=(3.18, -2.63, 2.19) dist=2.41 m speed=0.40 m/s
+[INFO] [1792705400.020319092] [flight_test]: pos=(3.06, -2.65, 2.19) dist=2.29 m speed=0.40 m/s
+[INFO] [1792705401.021368294] [flight_test]: pos=(2.95, -2.66, 2.19) dist=2.18 m speed=0.40 m/s
+[INFO] [1792705402.218868697] [flight_test]: pos=(2.85, -2.68, 2.19) dist=2.07 m speed=0.40 m/s
+[INFO] [1792705403.220868501] [flight_test]: pos=(2.73, -2.70, 2.19) dist=1.95 m speed=0.40 m/s
+[INFO] [1792705404.419747007] [flight_test]: pos=(2.61, -2.72, 2.19) dist=1.83 m speed=0.40 m/s
+[INFO] [1792705405.419780713] [flight_test]: pos=(2.48, -2.74, 2.19) dist=1.70 m speed=0.40 m/s
+[INFO] [1792705406.620967919] [flight_test]: pos=(2.36, -2.76, 2.19) dist=1.58 m speed=0.40 m/s
+[INFO] [1792705407.621566624] [flight_test]: pos=(2.24, -2.77, 2.19) dist=1.46 m speed=0.40 m/s
+[INFO] [1792705408.820952631] [flight_test]: pos=(2.10, -2.79, 2.19) dist=1.32 m speed=0.40 m/s
+[INFO] [1792705410.020183437] [flight_test]: pos=(1.97, -2.82, 2.19) dist=1.18 m speed=0.40 m/s
+[INFO] [1792705411.019494911] [flight_test]: pos=(1.86, -2.83, 2.19) dist=1.07 m speed=0.40 m/s
+[INFO] [1792705412.023864564] [flight_test]: pos=(1.76, -2.85, 2.19) dist=0.98 m speed=0.39 m/s
+[INFO] [1792705413.020017117] [flight_test]: pos=(1.65, -2.87, 2.19) dist=0.86 m speed=0.34 m/s
+[INFO] [1792705414.220979960] [flight_test]: pos=(1.53, -2.88, 2.19) dist=0.74 m speed=0.30 m/s
+[INFO] [1792705415.226751613] [flight_test]: pos=(1.46, -2.90, 2.19) dist=0.67 m speed=0.27 m/s
+[INFO] [1792705416.419865157] [flight_test]: pos=(1.37, -2.91, 2.19) dist=0.58 m speed=0.23 m/s
+[INFO] [1792705417.419692510] [flight_test]: pos=(1.29, -2.92, 2.19) dist=0.49 m speed=0.20 m/s
+[INFO] [1792705418.620057262] [flight_test]: pos=(1.21, -2.93, 2.19) dist=0.42 m speed=0.17 m/s
+[INFO] [1792705419.621210767] [flight_test]: pos=(1.17, -2.94, 2.19) dist=0.37 m speed=0.15 m/s
+[INFO] [1792705420.820136373] [flight_test]: pos=(1.11, -2.95, 2.19) dist=0.31 m speed=0.12 m/s
+[INFO] [1792705421.820687078] [flight_test]: pos=(1.07, -2.96, 2.19) dist=0.27 m speed=0.11 m/s
+[INFO] [1792705422.823576383] [flight_test]: pos=(1.03, -2.96, 2.19) dist=0.24 m speed=0.10 m/s
+[INFO] [1792705426.220180500] [flight_test]: Target point reached
+[INFO] [1792705426.221684200] [flight_test]: RESULT start    : x0=6.000, y0=-2.200
+[INFO] [1792705426.224222900] [flight_test]: RESULT target   : x=0.800, y=-3.000
+[INFO] [1792705426.233485400] [flight_test]: RESULT actual   : x=0.942, y=-2.976, z=2.190
+[INFO] [1792705426.235392200] [flight_test]: RESULT error    : e=0.144 m
+[INFO] [1792705426.237055900] [flight_test]: Holding position at the target before landing
+[INFO] [1792705436.226106549] [flight_test]: Hold at target finished, landing
+[INFO] [1792705436.421426950] [flight_test]: Requesting flight mode 9
+[INFO] [1792705436.434480650] [flight_test]: LAND mode enabled
+[INFO] [1792705462.420569857] [flight_test]: Landing completed
+[INFO] [1792705462.422572057] [flight_test]: Final Gazebo position: x=0.936, y=-2.976, altitude=0.19 m
+[INFO] [1792705462.424264957] [flight_test]: Flight test completed successfully
